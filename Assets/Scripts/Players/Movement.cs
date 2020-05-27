@@ -5,11 +5,16 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     private int kecepatan = 7,
-        kekuatanLompat = 50,
+        kekuatanLompat = 100,
         pindah;
-    private bool balik;
+    private bool balik,
+        tanah;
+    private float jangkauan = 0.1f;
 
     Rigidbody2D lompat;
+
+    public LayerMask targetLayer;
+    public Transform deteksiTanah;
 
     void Start()
     {
@@ -18,6 +23,8 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
+        tanah = Physics2D.OverlapCircle(deteksiTanah.position, jangkauan, targetLayer);
+
         if (Input.GetKey(KeyCode.D))
         {
             transform.Translate(Vector2.right * kecepatan * Time.deltaTime);
@@ -29,7 +36,7 @@ public class Movement : MonoBehaviour
             pindah = 1;
         }
 
-        if (Input.GetKey(KeyCode.W))
+        if (tanah && Input.GetKey(KeyCode.W))
         {
             lompat.AddForce(new Vector2(0, kekuatanLompat));
         }

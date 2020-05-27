@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 450003691}
   - component: {fileID: 450003692}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: _body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +214,7 @@ GameObject:
   m_Component:
   - component: {fileID: 458007745}
   - component: {fileID: 458007746}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: _foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -370,6 +370,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &568258427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 568258428}
+  m_Layer: 0
+  m_Name: PendeteksiTanah
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &568258428
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568258427}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.07624559, y: -0.87682515, z: -27.92079}
+  m_LocalScale: {x: 1.270761, y: 1.270761, z: 1.270761}
+  m_Children: []
+  m_Father: {fileID: 1224593779}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1034026342
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,7 +410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1034026343}
   - component: {fileID: 1034026344}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: _head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -464,7 +494,7 @@ GameObject:
   - component: {fileID: 1224593780}
   - component: {fileID: 1224593781}
   - component: {fileID: 1224593782}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -484,6 +514,7 @@ Transform:
   m_Children:
   - {fileID: 1034026343}
   - {fileID: 450003691}
+  - {fileID: 568258428}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -546,6 +577,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f11c53f0497560842a54662d9a2c2274, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 55
+  deteksiTanah: {fileID: 568258428}
+  jangkauan: 0
 --- !u!1 &1416358527
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,7 +592,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1416358528}
   - component: {fileID: 1416358529}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: _shoes
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -1,0 +1,893 @@
+fileFormatVersion: 2
+guid: d1e81188249a0904e8f9d162c7dd2900
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6403164131455116719
+    second: medicus specialist_0
+  - first:
+      213: -5762040184961014125
+    second: medicus specialist_0
+  - first:
+      213: -5396424337603351744
+    second: medicus specialist_1
+  - first:
+      213: -6270391883171297172
+    second: medicus specialist_2
+  - first:
+      213: 1393382652730397992
+    second: medicus specialist_3
+  - first:
+      213: -8970987720850241841
+    second: medicus specialist_4
+  - first:
+      213: 4487670164118381403
+    second: medicus specialist_5
+  - first:
+      213: 3005113801689563948
+    second: medicus specialist_6
+  - first:
+      213: 1291449339687992859
+    second: medicus specialist_7
+  - first:
+      213: 702870868244966301
+    second: medicus specialist_8
+  - first:
+      213: -8894213742069474088
+    second: medicus specialist_9
+  - first:
+      213: -5002840495558035987
+    second: medicus specialist_10
+  - first:
+      213: 1348993440179120914
+    second: medicus specialist_11
+  - first:
+      213: -5406194670729277676
+    second: medicus specialist_12
+  - first:
+      213: 5811746898257806803
+    second: medicus specialist_13
+  - first:
+      213: -8107735260104619000
+    second: medicus specialist_14
+  - first:
+      213: -4034349173231976945
+    second: medicus specialist_15
+  - first:
+      213: -3603679839753099435
+    second: medicus specialist_16
+  - first:
+      213: -7693827784849855620
+    second: medicus specialist_17
+  - first:
+      213: -1888129503642795976
+    second: medicus specialist_18
+  - first:
+      213: -6356084449772277844
+    second: medicus specialist_19
+  - first:
+      213: 8922620236643802058
+    second: medicus specialist_20
+  - first:
+      213: 5715136186306856248
+    second: medicus specialist_21
+  - first:
+      213: -4138928820399501169
+    second: medicus specialist_22
+  - first:
+      213: -3503822143285766125
+    second: medicus specialist_23
+  - first:
+      213: -8008155975699112238
+    second: medicus specialist_24
+  - first:
+      213: -7817278837137227310
+    second: medicus specialist_25
+  - first:
+      213: -4369076526936390909
+    second: medicus specialist_26
+  - first:
+      213: 4324932334567463158
+    second: medicus specialist_27
+  - first:
+      213: 2753165876401882472
+    second: medicus specialist_28
+  - first:
+      213: -1734931987818738885
+    second: medicus specialist_29
+  - first:
+      213: -660813904594164397
+    second: medicus specialist_30
+  - first:
+      213: 5495562214006113345
+    second: medicus specialist_31
+  - first:
+      213: 625442931567368471
+    second: medicus specialist_32
+  - first:
+      213: -2635884306372766530
+    second: medicus specialist_33
+  - first:
+      213: -3881645509425270420
+    second: medicus specialist_34
+  - first:
+      213: -2541739885747404916
+    second: medicus specialist_35
+  - first:
+      213: 4878466872284099229
+    second: medicus specialist_36
+  - first:
+      213: 1089788729340374452
+    second: medicus specialist_37
+  - first:
+      213: -9152615400348228961
+    second: medicus specialist_38
+  - first:
+      213: -6108798646685765965
+    second: medicus specialist_39
+  - first:
+      213: -774059029795298180
+    second: medicus specialist_40
+  - first:
+      213: -7433715384980792495
+    second: medicus specialist_41
+  - first:
+      213: 7985550582514898044
+    second: medicus specialist_42
+  - first:
+      213: 7592017071102208448
+    second: medicus specialist_43
+  - first:
+      213: -7321855126339002166
+    second: medicus specialist_44
+  - first:
+      213: 4586689147822214755
+    second: medicus specialist_45
+  - first:
+      213: -1898107690405658719
+    second: medicus specialist_46
+  - first:
+      213: -2527333583527397778
+    second: medicus specialist_47
+  - first:
+      213: -4125541937956673721
+    second: medicus specialist_48
+  - first:
+      213: -3811309809950248093
+    second: medicus specialist_49
+  - first:
+      213: -620261012311006738
+    second: medicus specialist_50
+  - first:
+      213: -3193102365676195781
+    second: medicus specialist_51
+  - first:
+      213: 57391426265869969
+    second: medicus specialist_52
+  - first:
+      213: 5932118227515981233
+    second: medicus specialist_53
+  - first:
+      213: -3607278051956881704
+    second: medicus specialist_54
+  - first:
+      213: 5133039387112840652
+    second: medicus specialist_55
+  - first:
+      213: -8138443580794165187
+    second: medicus specialist_56
+  - first:
+      213: 8003777285463433262
+    second: medicus specialist_57
+  - first:
+      213: 8409672885280322073
+    second: medicus specialist_58
+  - first:
+      213: -3352394421721189816
+    second: medicus specialist_59
+  - first:
+      213: -7651922650292400647
+    second: medicus specialist_60
+  - first:
+      213: -1978885537848442439
+    second: medicus specialist_61
+  - first:
+      213: 7787416077069005127
+    second: medicus specialist_62
+  - first:
+      213: 5982784768640529033
+    second: medicus specialist_63
+  - first:
+      213: 2038521159798392696
+    second: medicus specialist_64
+  - first:
+      213: 8122080951276428147
+    second: medicus specialist_65
+  - first:
+      213: -395995359188737265
+    second: medicus specialist_66
+  - first:
+      213: -3246023341422884774
+    second: medicus specialist_67
+  - first:
+      213: 7684864189673703081
+    second: medicus specialist_68
+  - first:
+      213: -7208205085228555067
+    second: medicus specialist_69
+  - first:
+      213: 8059484010574474118
+    second: medicus specialist_70
+  - first:
+      213: 8564506436037090291
+    second: medicus specialist_71
+  - first:
+      213: 4573168161524138598
+    second: medicus specialist_72
+  - first:
+      213: 3709384415132839480
+    second: medicus specialist_73
+  - first:
+      213: 6156845056181920775
+    second: medicus specialist_74
+  - first:
+      213: 8359580403268022033
+    second: medicus specialist_75
+  - first:
+      213: 7724357510523273956
+    second: medicus specialist_76
+  - first:
+      213: -6195314827206177539
+    second: medicus specialist_77
+  - first:
+      213: 3157042189783480786
+    second: medicus specialist_78
+  - first:
+      213: -1960146096577053251
+    second: medicus specialist_79
+  - first:
+      213: 769013774849966117
+    second: medicus specialist_80
+  - first:
+      213: 8800125710444093852
+    second: medicus specialist_81
+  - first:
+      213: 272230142651397288
+    second: medicus specialist_82
+  - first:
+      213: 825992020351496324
+    second: medicus specialist_83
+  - first:
+      213: 8128361788462304480
+    second: medicus specialist_84
+  - first:
+      213: 2179558250229884697
+    second: medicus specialist_85
+  - first:
+      213: 6876402848383072237
+    second: medicus specialist_86
+  - first:
+      213: 461837100927630569
+    second: medicus specialist_87
+  - first:
+      213: 3023978648473086027
+    second: medicus specialist_88
+  - first:
+      213: -6102192859794998149
+    second: medicus specialist_89
+  - first:
+      213: 2552487112733437426
+    second: medicus specialist_90
+  - first:
+      213: -2224636442157848774
+    second: medicus specialist_91
+  - first:
+      213: 2645622298854596447
+    second: medicus specialist_92
+  - first:
+      213: -6502552926275922170
+    second: medicus specialist_93
+  - first:
+      213: 624719449856411017
+    second: medicus specialist_94
+  - first:
+      213: -476704799022396084
+    second: medicus specialist_95
+  - first:
+      213: -2048493740491991688
+    second: medicus specialist_96
+  - first:
+      213: -8654493827897329631
+    second: medicus specialist_97
+  - first:
+      213: 1684582640469329478
+    second: medicus specialist_98
+  - first:
+      213: 5262513042758426215
+    second: medicus specialist_99
+  - first:
+      213: -2184845698751248367
+    second: medicus specialist_100
+  - first:
+      213: 151746628306638658
+    second: medicus specialist_101
+  - first:
+      213: 8619677106827815127
+    second: medicus specialist_102
+  - first:
+      213: 862941203441605674
+    second: medicus specialist_103
+  - first:
+      213: 1851038785708764112
+    second: medicus specialist_104
+  - first:
+      213: 8274029804346050293
+    second: medicus specialist_105
+  - first:
+      213: 6256233297282761414
+    second: medicus specialist_106
+  - first:
+      213: -2943038363627597079
+    second: medicus specialist_107
+  - first:
+      213: -3523681941757012541
+    second: medicus specialist_108
+  - first:
+      213: 5827012853710374387
+    second: medicus specialist_109
+  - first:
+      213: -7133603911403481160
+    second: medicus specialist_110
+  - first:
+      213: 7780178424859224914
+    second: medicus specialist_111
+  - first:
+      213: -7428397883289010938
+    second: medicus specialist_112
+  - first:
+      213: 7834219960319775809
+    second: medicus specialist_113
+  - first:
+      213: -7057652949777030007
+    second: medicus specialist_114
+  - first:
+      213: 2284369283231611880
+    second: medicus specialist_115
+  - first:
+      213: 3211326075805155544
+    second: medicus specialist_116
+  - first:
+      213: -5361865069523109279
+    second: medicus specialist_117
+  - first:
+      213: 2251028360233501728
+    second: medicus specialist_118
+  - first:
+      213: -6168740402105925742
+    second: medicus specialist_119
+  - first:
+      213: 5600895396695160280
+    second: medicus specialist_120
+  - first:
+      213: 5651737397786759811
+    second: medicus specialist_121
+  - first:
+      213: -2233748015825589750
+    second: medicus specialist_122
+  - first:
+      213: 8547511310232030216
+    second: medicus specialist_123
+  - first:
+      213: 5910755043664172410
+    second: medicus specialist_124
+  - first:
+      213: 1559481232636979233
+    second: medicus specialist_125
+  - first:
+      213: -4781972935911069752
+    second: medicus specialist_126
+  - first:
+      213: -4537182478847631869
+    second: medicus specialist_127
+  - first:
+      213: -3265767337928355668
+    second: medicus specialist_128
+  - first:
+      213: 4238695327242947790
+    second: medicus specialist_129
+  - first:
+      213: -803343468337000254
+    second: medicus specialist_130
+  - first:
+      213: 8122021101912805311
+    second: medicus specialist_131
+  - first:
+      213: 8270667598174054772
+    second: medicus specialist_132
+  - first:
+      213: 8515476578930164274
+    second: medicus specialist_133
+  - first:
+      213: 2927667230288750533
+    second: medicus specialist_134
+  - first:
+      213: -5215507673144822020
+    second: medicus specialist_135
+  - first:
+      213: 2032142883721198973
+    second: medicus specialist_136
+  - first:
+      213: 734752204125081598
+    second: medicus specialist_137
+  - first:
+      213: -1739384713118477464
+    second: medicus specialist_138
+  - first:
+      213: -8957569848977999184
+    second: medicus specialist_139
+  - first:
+      213: 3357952952806120817
+    second: medicus specialist_140
+  - first:
+      213: -6055215312212242661
+    second: medicus specialist_141
+  - first:
+      213: -8411257319532320169
+    second: medicus specialist_142
+  - first:
+      213: 437623979373192343
+    second: medicus specialist_143
+  - first:
+      213: -8312720706652733557
+    second: medicus specialist_144
+  - first:
+      213: -8254122725128212925
+    second: medicus specialist_145
+  - first:
+      213: -4030421985495630463
+    second: medicus specialist_146
+  - first:
+      213: -6178634575982732604
+    second: medicus specialist_147
+  - first:
+      213: 3932119416460318339
+    second: medicus specialist_148
+  - first:
+      213: -6926776459096866871
+    second: medicus specialist_149
+  - first:
+      213: 844280405885351239
+    second: medicus specialist_150
+  - first:
+      213: -4238478353375121718
+    second: medicus specialist_151
+  - first:
+      213: 7865240313291477934
+    second: medicus specialist_152
+  - first:
+      213: 1828871137957185656
+    second: medicus specialist_153
+  - first:
+      213: -645146967151273058
+    second: medicus specialist_154
+  - first:
+      213: -130866970019651812
+    second: medicus specialist_155
+  - first:
+      213: 1496682114236433954
+    second: medicus specialist_156
+  - first:
+      213: 403662607337440143
+    second: medicus specialist_157
+  - first:
+      213: 4878072109183874541
+    second: medicus specialist_158
+  - first:
+      213: -4809916030749003754
+    second: medicus specialist_159
+  - first:
+      213: 7215416966440724128
+    second: medicus specialist_160
+  - first:
+      213: -8081916899341634372
+    second: medicus specialist_161
+  - first:
+      213: -2435191406206613514
+    second: medicus specialist_162
+  - first:
+      213: -4537618047873594248
+    second: medicus specialist_163
+  - first:
+      213: 7898201066176995238
+    second: medicus specialist_164
+  - first:
+      213: 318739296861308961
+    second: medicus specialist_165
+  - first:
+      213: -5890303534607880377
+    second: medicus specialist_166
+  - first:
+      213: -9030282859591772570
+    second: medicus specialist_167
+  - first:
+      213: -3249478842737497143
+    second: medicus specialist_168
+  - first:
+      213: -794465560885970393
+    second: medicus specialist_169
+  - first:
+      213: 756444148779169777
+    second: medicus specialist_170
+  - first:
+      213: 2544705085403778289
+    second: medicus specialist_171
+  - first:
+      213: -3397437793551402729
+    second: medicus specialist_172
+  - first:
+      213: -7836702101115814325
+    second: medicus specialist_173
+  - first:
+      213: -7726287471081564598
+    second: medicus specialist_174
+  - first:
+      213: -3065631055928479289
+    second: medicus specialist_175
+  - first:
+      213: 2837168921165125979
+    second: medicus specialist_176
+  - first:
+      213: -8211307210658691717
+    second: medicus specialist_177
+  - first:
+      213: -6649897579622996223
+    second: medicus specialist_178
+  - first:
+      213: 3229289650405383557
+    second: medicus specialist_179
+  - first:
+      213: -4719063303528666526
+    second: medicus specialist_180
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 4
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: medicus specialist_0
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 597
+        width: 350
+        height: 337
+      alignment: 9
+      pivot: {x: 0.5360855, y: 0.083583936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3966fd9fafe1900b0800000000000000
+      internalID: -5762040184961014125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medicus specialist_1
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 167
+        width: 192
+        height: 267
+      alignment: 9
+      pivot: {x: 0.617009, y: 0.07929353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b21eb08ac0c15b0800000000000000
+      internalID: -5396424337603351744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medicus specialist_2
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 216
+        width: 98
+        height: 215
+      alignment: 9
+      pivot: {x: 0.45173863, y: 0.89596885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c680511edc71bf8a0800000000000000
+      internalID: -6270391883171297172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medicus specialist_3
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 229
+        width: 81
+        height: 64
+      alignment: 9
+      pivot: {x: 0.2956332, y: 0.79560137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825df24e32a465310800000000000000
+      internalID: 1393382652730397992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medicus specialist_4
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 227
+        width: 159
+        height: 128
+      alignment: 9
+      pivot: {x: 0.24715784, y: 0.28753662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6845eb236a08380800000000000000
+      internalID: -8970987720850241841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medicus specialist_5
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 215
+        width: 110
+        height: 117
+      alignment: 9
+      pivot: {x: 0.1667769, y: 0.74254483}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b532561dc38674e30800000000000000
+      internalID: 4487670164118381403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medicus specialist_6
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 503
+        width: 95
+        height: 67
+      alignment: 9
+      pivot: {x: 0.15822239, y: 0.5745549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c238453b41f44b920800000000000000
+      internalID: 3005113801689563948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medicus specialist_7
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 488
+        width: 65
+        height: 71
+      alignment: 9
+      pivot: {x: 0.40393817, y: 0.8341864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ef38105562ce110800000000000000
+      internalID: 1291449339687992859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medicus specialist_8
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 668
+        width: 80
+        height: 217
+      alignment: 9
+      pivot: {x: 0.2814598, y: 0.9546326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b26b8a45911c900800000000000000
+      internalID: 702870868244966301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medicus specialist_9
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 663
+        width: 109
+        height: 201
+      alignment: 9
+      pivot: {x: 0.17920706, y: 0.94733185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc1d83a9b7619480800000000000000
+      internalID: -8894213742069474088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medicus specialist_10
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 739
+        width: 220
+        height: 84
+      alignment: 9
+      pivot: {x: 0.074272014, y: 0.58919996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5f2525317529ab0800000000000000
+      internalID: -5002840495558035987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

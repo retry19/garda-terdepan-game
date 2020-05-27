@@ -16,24 +16,39 @@ public class Movement : MonoBehaviour
     public LayerMask targetLayer;
     public Transform deteksiTanah;
 
+    Animator anim;
+
     void Start()
     {
         lompat = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
+        if (tanah)
+        {
+            anim.SetBool("jump", false);
+        } else
+        {
+            anim.SetBool("jump", true);
+        }
+
         tanah = Physics2D.OverlapCircle(deteksiTanah.position, jangkauan, targetLayer);
 
         if (Input.GetKey(KeyCode.D))
         {
+            anim.SetBool("walk", true);
             transform.Translate(Vector2.right * kecepatan * Time.deltaTime);
             pindah = -1;
-        }
-        if (Input.GetKey(KeyCode.A))
+        } else if (Input.GetKey(KeyCode.A))
         {
+            anim.SetBool("walk", true);
             transform.Translate(-Vector2.right * kecepatan * Time.deltaTime);
             pindah = 1;
+        } else
+        {
+            anim.SetBool("walk", false);
         }
 
         if (tanah && Input.GetKey(KeyCode.W))

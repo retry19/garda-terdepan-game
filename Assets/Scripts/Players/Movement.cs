@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    private int kecepatan = 7,
-        kekuatanLompat = 100,
+    private int kecepatan = 5,
+        kekuatanLompat = 80,
         pindah;
     private bool balik,
         tanah;

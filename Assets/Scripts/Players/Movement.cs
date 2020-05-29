@@ -26,6 +26,8 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
+        tanah = Physics2D.OverlapCircle(deteksiTanah.position, jangkauan, targetLayer);
+
         if (tanah)
         {
             anim.SetBool("jump", false);
@@ -33,8 +35,6 @@ public class Movement : MonoBehaviour
         {
             anim.SetBool("jump", true);
         }
-
-        tanah = Physics2D.OverlapCircle(deteksiTanah.position, jangkauan, targetLayer);
 
         if (Input.GetKey(KeyCode.D))
         {

@@ -608,6 +608,7 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Collab: 1
     UNet: 1
   luminIcon:
     m_Name: 
@@ -621,10 +622,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 09d6c691-4fc0-4c51-904b-1f0850b32401
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: Garda Terdepan
+  organizationId: re_try
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

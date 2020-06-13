@@ -6,8 +6,9 @@ using UnityEngine.UI;
 public class Items : MonoBehaviour
 {
     public int money,
-        health,
         ammo;
+    public float health;
+    private int healthInt;
 
     Text infoMoney,
         infoHealth,
@@ -22,8 +23,10 @@ public class Items : MonoBehaviour
 
     private void Update()
     {
-        infoMoney.text = money.ToString() + " 💰";
-        infoHealth.text = health.ToString() + " ❤";
-        infoAmmo.text = ammo.ToString() + " 🔫";
+        healthInt = (int)health;
+
+        infoMoney.text = money.ToString();
+        infoHealth.text = healthInt.ToString();
+        infoAmmo.text = ammo.ToString();
     }
 }

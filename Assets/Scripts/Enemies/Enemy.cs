@@ -8,8 +8,13 @@ public class Enemy : MonoBehaviour {
     public int health,
         level,
         money;
+    public float damage;
+    private bool attackArea; 
+
     public GameObject deathEffect;
     public GameObject explosion;
+    public LayerMask attackAreaLayer;
+    public Transform deteksiTembok;
 
     private Items player;
 
@@ -20,6 +25,13 @@ public class Enemy : MonoBehaviour {
 
     private void Update()
     {
+        attackArea = Physics2D.OverlapCircle(deteksiTembok.position, 0, attackAreaLayer);
+
+        if (attackArea)
+        {
+            player.health -= damage;
+        }
+
         if (health <= 0) {
             Instantiate(deathEffect, transform.position, Quaternion.identity);
 
@@ -36,4 +48,3 @@ public class Enemy : MonoBehaviour {
     }
 
 }
-

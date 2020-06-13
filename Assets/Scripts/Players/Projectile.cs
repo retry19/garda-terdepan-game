@@ -4,19 +4,33 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    public float speed,
-        lifeTime;
+    public float speed;
+    public float lifeTime;
+    public float distance;
+    public int damage;
+    public LayerMask whatIsSolid;
 
     public GameObject destroyEffect;
 
-    void Start()
+    private void Start()
     {
-        //invoke("DestroyProjectile", lifeTime);
+        Invoke("DestroyProjectile", lifeTime);
     }
 
-    void Update()
+    private void Update()
     {
-        //tranform.Translate(transform.up * speed * Time.deltaTime);
+        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.up, distance, whatIsSolid);
+        if (hitInfo.collider != null)
+        {
+            if (hitInfo.collider.CompareTag("Enemy"))
+            {
+                hitInfo.collider.GetComponent<Enemy>().TakeDamage(damage);
+            }
+            DestroyProjectile();
+        }
+
+
+        transform.Translate(Vector2.up * speed * Time.deltaTime);
     }
 
     void DestroyProjectile()

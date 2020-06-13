@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Character
+  - Enemy
+  - Waypoint
   layers:
   - Default
   - TransparentFX
@@ -17,8 +19,8 @@ TagManager:
   - Character
   - Ladder
   - ShotArea
-  - 
-  - 
+  - Enemy
+  - Env
   - 
   - 
   - 

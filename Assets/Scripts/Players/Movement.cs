@@ -54,6 +54,8 @@ public class Movement : MonoBehaviour
         if (tanah && Input.GetKey(KeyCode.W))
         {
             lompat.AddForce(new Vector2(0, kekuatanLompat));
+
+            FindObjectOfType<AudioManager>().Play("PlayerJump");
         }
 
         if (pindah > 0 && !balik)

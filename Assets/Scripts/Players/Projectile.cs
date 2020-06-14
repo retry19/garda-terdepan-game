@@ -26,6 +26,9 @@ public class Projectile : MonoBehaviour
             {
                 hitInfo.collider.GetComponent<Enemy>().TakeDamage(damage);
             }
+
+            FindObjectOfType<AudioManager>().Play("EnemyShooted");
+
             DestroyProjectile();
         }
 

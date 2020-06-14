@@ -27,6 +27,8 @@ public class MejaRacik : MonoBehaviour
     {
         if (itemsPlayer.money >= 10)
         {
+            FindObjectOfType<AudioManager>().Play("ButtonClicked");
+
             itemsPlayer.money -= 10;
             itemsPlayer.ammo += 8;
         }
@@ -36,6 +38,8 @@ public class MejaRacik : MonoBehaviour
     {
         if (itemsPlayer.money >= 17)
         {
+            FindObjectOfType<AudioManager>().Play("ButtonClicked");
+
             itemsPlayer.money -= 17;
             itemsPlayer.ammo += 16;
         }

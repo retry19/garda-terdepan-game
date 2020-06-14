@@ -35,6 +35,8 @@ public class Enemy : MonoBehaviour {
         if (health <= 0) {
             Instantiate(deathEffect, transform.position, Quaternion.identity);
 
+            FindObjectOfType<AudioManager>().Play("EnemyDeath");
+
             player.money += money;
             Destroy(gameObject);
         }
@@ -44,6 +46,7 @@ public class Enemy : MonoBehaviour {
     {
         camAnim.SetTrigger("shake");
         Instantiate(explosion, transform.position, Quaternion.identity);
+
         health -= damage;
     }
 

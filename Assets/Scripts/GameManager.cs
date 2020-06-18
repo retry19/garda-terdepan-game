@@ -23,6 +23,8 @@ public class GameManager : MonoBehaviour
         SetActiveRecursivelyExt(panelWinGame, false);
         SetActiveRecursivelyExt(panelLoseGame, false);
         SetActiveRecursivelyExt(panelPause, false);
+
+        isPaused = false;
     }
 
     void Update()
